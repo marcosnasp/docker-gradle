@@ -1,3 +1,9 @@
+## Build Custom Image from Linux Alpine
+
+Add gradle 2.10 and jdk 7
+
+## Docker Build from Dockerfile
+
 ```
 docker build --no-cache -t gradle/gradle:2.10 .
 ```
