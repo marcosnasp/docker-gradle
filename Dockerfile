@@ -8,6 +8,8 @@ RUN  apk update \
     && apk add bash \
     && apk add curl \
     && apk add wget \
+    && apk add zip \
+    && apk add unzip \
     && apk fetch openjdk7 \
     && apk add openjdk7
 
